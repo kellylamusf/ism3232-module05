@@ -8,11 +8,9 @@ def calculate_total(price: float, quantity: int) -> float:
     """Return total cost including 7% tax."""
     return price * quantity * 1.07
 
-
 def requires_review(amount: float) -> bool:
     """Return true if amount exceeds the approval limit."""
     return amount > APPROVAL_LIMIT
-
 
 def get_approval_tier(amount: float) -> str:
     """Return the approval routing tier."""
@@ -23,7 +21,9 @@ def get_approval_tier(amount: float) -> str:
     else:
         return "director"
 
-
 def apply_discount(price: float, pct: float) -> float:
     """Return price after discount. pcy is 0-100."""
     return price * (1 - pct / 100)
+
+
+
