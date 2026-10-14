@@ -1,4 +1,10 @@
-from business_rules import calculate_total, requires_review, get_approval_tier, apply_discount
+# tests/test_business_rules.py
+from business_rules import (
+    calculate_total,
+    requires_review,
+    get_approval_tier,
+    apply_discount,
+)
 
 
 def test_total_includes_tax():
