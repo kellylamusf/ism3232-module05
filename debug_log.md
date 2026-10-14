@@ -23,7 +23,7 @@ Did pytest pass? Yes
 ## AI Literacy Reflection
 Did I use AI? No
 If yes -- exact prompt I used: ___
-What AI explained: I did not need AI because I reviewed each line of code to make sure there wasn't any syntax/typo errors because those mistakes are simple to fix. 
+What AI explained: I did not need AI because of the DEBUG print, I also reviewed each line of code to make sure there wasn't any syntax/typo errors because those mistakes are simple to fix. 
 What I changed myself: I went through the code to see if there was any typo error mistakes first line by line and I saw that in the first bug in id:1 the amount was a typo 'amout' instead of 'amount'. And with line 17, the return amount is suppose to be an int so no ' is needed. 
 Can I explain every fixed line? Yes
 
